@@ -1,0 +1,498 @@
+.body{
+    background-color: gray;
+}
+
+/* celulares*/
+@media (max-width: 575.98px) {
+
+    /* index */
+    .tituloInicio{
+        font-size: 1rem;
+    }
+    .subtitulosInicio{
+        font-size: 1rem;
+        color: #000000;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .imgInicio {
+        width: 100%;
+        height: 25rem;
+        border: 5px solid black;
+    }
+    .social{
+        text-align: center;
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+    .social a{
+        margin: 1rem;
+        color: #000000;
+    }
+    .inscripcionInicio{
+        font-size: 1.7rem;
+        margin: 2rem;
+        text-align: center;
+    }
+    .textosInicio{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .textosInicio a{
+        color: skyblue;
+    }
+     /* cierro index */
+
+
+
+     /* nosotros */
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+    .cardd {
+        border: 3px solid skyblue;
+        border-radius: 1.5rem;
+    }
+    .cardd a{
+        color: #ffffff;
+    }
+    .cardd a:hover{
+        color: skyblue;
+    }
+    .tituloNosotros{
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .introNosotros{
+        text-align: left;
+        margin: 1rem;
+    }
+    
+    /* diplomatura*/
+
+    .botones{
+        text-align: center;
+    }
+
+    .btnInfo{
+        margin: 0.5rem;
+    }
+    .section{
+        margin-top: 4rem;
+    }
+    .textos{
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .tituloRol{
+        font-size: 1.5rem;
+    }
+    .tituloRol i{
+        color: skyblue;
+    }
+    .diplomatura{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .tituloDiplo{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    .fas{
+        color:skyblue;
+    }
+    .sectionAbajo{
+        margin-bottom: 4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablets */
+@media (max-width: 992px) {
+
+    /* index */
+    .tituloInicio{
+        font-size: 2.5rem;
+    }
+    .subtitulosInicio{
+        font-size: 2rem;
+        color: #000000;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .imgInicio {
+        width: 100%;
+        height: 40rem;
+        border: 5px solid black;
+    }
+    .social{
+        text-align: center;
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+    .social a{
+        margin: 1rem;
+        color: #000000;
+    }
+    .inscripcionInicio{
+        font-size: 1.7rem;
+        margin: 2rem;
+        text-align: center;
+    }
+    .textosInicio{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .textosInicio a{
+        color: skyblue;
+    }
+     /* cierro index */
+
+
+
+     /* nosotros */
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+    .cardd {
+        border: 3px solid skyblue;
+        border-radius: 1.5rem;
+    }
+    .cardd a{
+        color: #ffffff;
+    }
+    .cardd a:hover{
+        color: skyblue;
+    }
+    .tituloNosotros{
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .introNosotros{
+        text-align: left;
+        margin: 1rem;
+    }
+    
+    /* diplomatura*/
+
+    .botones{
+        text-align: center;
+    }
+
+    .btnInfo{
+        margin: 0.5rem;
+    }
+    .section{
+        margin-top: 4rem;
+    }
+    .textos{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .tituloRol{
+        font-size: 2rem;
+    }
+    .tituloRol i{
+        color: skyblue;
+    }
+    .diplomatura{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .tituloDiplo{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    .fas{
+        color:skyblue;
+    }
+    .sectionAbajo{
+        margin-bottom: 4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop */
+@media (max-width: 1200px) {
+
+    /* index */
+    .tituloInicio{
+        font-size: 2rem;
+    }
+    .subtitulosInicio{
+        font-size: 2rem;
+        color: #000000;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .imgInicio {
+        width: 100%;
+        height: 43rem;
+        border: 5px solid black;
+    }
+    .social{
+        text-align: center;
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+    .social a{
+        margin: 1rem;
+        color: #000000;
+    }
+    .inscripcionInicio{
+        font-size: 2rem;
+        margin: 2rem;
+        text-align: center;
+    }
+    .textosInicio{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .textosInicio a{
+        color: skyblue;
+    }
+     /* cierro index */
+
+
+
+     /* nosotros */
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+    .cardd {
+        border: 3px solid skyblue;
+        border-radius: 1.5rem;
+    }
+    .cardd a{
+        color: #ffffff;
+    }
+    .cardd a:hover{
+        color: skyblue;
+    }
+    .tituloNosotros{
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .introNosotros{
+        text-align: left;
+        margin: 1rem;
+    }
+    
+    /* diplomatura*/
+
+    .botones{
+        text-align: center;
+    }
+
+    .btnInfo{
+        margin: 0.5rem;
+    }
+    .section{
+        margin-top: 4rem;
+    }
+    .textos{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .tituloRol{
+        font-size: 2rem;
+    }
+    .tituloRol i{
+        color: skyblue;
+    }
+    .diplomatura{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .tituloDiplo{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    .fas{
+        color:skyblue;
+    }
+    .sectionAbajo{
+        margin-bottom: 4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* large desktop*/
+@media (min-width: 1200px) {
+
+    /* index */
+    .tituloInicio{
+        font-size: 2rem;
+    }
+    .subtitulosInicio{
+        font-size: 2rem;
+        color: #000000;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .imgInicio {
+        width: 70%;
+        height: 40rem;
+        border: 5px solid black;
+        display:block;
+        margin:auto;
+    }
+    .social{
+        text-align: center;
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+    .social a{
+        margin: 1rem;
+        color: #000000;
+    }
+    .inscripcionInicio{
+        font-size: 2rem;
+        margin: 2rem;
+        text-align: center;
+    }
+    .textosInicio{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .textosInicio a{
+        color: skyblue;
+    }
+     /* cierro index */
+
+
+
+     /* nosotros */
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+    .cardd {
+        border: 3px solid skyblue;
+        border-radius: 1.5rem;
+    }
+    .cardd a{
+        color: #ffffff;
+    }
+    .cardd a:hover{
+        color: skyblue;
+    }
+    .tituloNosotros{
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .introNosotros{
+        text-align: left;
+        margin: 1rem;
+    }
+    
+    /* diplomatura*/
+
+    .botones{
+        text-align: center;
+    }
+
+    .btnInfo{
+        margin: 1.5rem;
+    }
+    .section{
+        margin-top: 4rem;
+    }
+    .textos{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .tituloRol{
+        font-size: 2rem;
+    }
+    .tituloRol i{
+        color: skyblue;
+    }
+    .diplomatura{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .tituloDiplo{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    .fas{
+        color:skyblue;
+    }
+    .sectionAbajo{
+        margin-bottom: 4rem;
+    }
+
+}
